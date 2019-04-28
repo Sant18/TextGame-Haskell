@@ -235,7 +235,7 @@ describe_helper "tunnel" "dead" _ locations = description "tunnel2"
 describe_helper "zomb" "dead" _ locations = description "zomb2"
 describe_helper here _ _ locations = description here
 
---Below are all the descriptions--
+--Below are all the description--
 description :: Location -> String
 description "area" =
     "You are in an abandoned town infested by zombies.\n" ++
